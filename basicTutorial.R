@@ -60,6 +60,13 @@ sd(v3) # 求v3中元素的标准差，0.3741657
 typeof('The moon tonight is extremely round') == 'character'  # TRUE
 3 > 2 # TRUE
 3 < 2 # FALSE
+# 逻辑运算符：& |(||) !
+# &或&&：只有所有条件都为TRUE时&才为TRUE
+# |或||：只要有一个为TRUE时|就为TRUE
+# !：表示取反，!TRUE==FALSE, !FALSE==TRUE
+3>2 && 2>5 # FALSE
+3>2 | 2>5 # TRUE
+3>2 && !(2>5) # TRUE
 #------------------------------------------------编程基础-----------------------------------------------------------
 # 循环语句（就是在条件满足的情况下循环执行一条或多条语句啦），分为for循环和while循环, for循环的格式是：
 # for (variable in sequence) {
