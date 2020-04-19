@@ -93,7 +93,14 @@ if(3 > 2) {
 } else {
   print('3 > 2 is FALSE')
 }
-
+eg:x = 6.8
+if(x>0 && x<5){
+  print("0<x<5")
+}else if (x>=5){
+  print("x>=5")
+}else{
+  print("x<=0")
+}
 # 函数定义，格式如下
 # function_name <- function(var) {
 #    do function
